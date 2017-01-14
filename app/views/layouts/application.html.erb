@@ -2,16 +2,14 @@
 <html>
   <head>
     <title>Pease</title>
+    <%= javascript_include_tag "application", 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <script src="https://cdn.WebRTC-Experiment.com/MediaStreamRecorder.js"></script>
-
-    <!-- for Edige/FF/Chrome/Opera/etc. getUserMedia support -->
     <script src="https://cdn.WebRTC-Experiment.com/gumadapter.js"></script>
-
-    <!-- <link rel="stylesheet" href="https://cdn.webrtc-experiment.com/style.css"> -->
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -19,8 +17,6 @@
     <link rel="author" type="text/html" href="https://plus.google.com/+MuazKhan">
     <meta name="author" content="Muaz Khan">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <%= javascript_include_tag "application", 'data-turbolinks-track': 'reload' %>
 
   </head>
 

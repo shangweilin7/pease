@@ -35,6 +35,8 @@ Rails.application.routes.draw do
         end
       end
 
+      resources :streams
+
       # namespace :api do 
       #   resources :users
       # end
