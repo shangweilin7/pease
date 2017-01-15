@@ -17,6 +17,7 @@ gem "rails-i18n"
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 gem 'sidekiq'
+gem 'whenever', :require => false
 
 
 # Use Uglifier as compressor for JavaScript assets
