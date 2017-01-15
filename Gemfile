@@ -16,6 +16,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem "rails-i18n"
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+gem 'sidekiq'
 
 
 # Use Uglifier as compressor for JavaScript assets
