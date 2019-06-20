@@ -3,6 +3,7 @@ class DigitalAssetsController < ApplicationController
 	before_action :find_will
 	def new
 		@digital_asset = @will.build_digital_asset
+		@eewewewew = nil
 	end
 
 	def create
@@ -31,7 +32,7 @@ class DigitalAssetsController < ApplicationController
 	end
 
 	private
-	def find_will 
+	def find_will
 		@will = current_user.will
 	end
 
@@ -40,7 +41,7 @@ class DigitalAssetsController < ApplicationController
 	end
 
 	def param_digital_asset
-		params.require(:digital_asset).permit(:facebook_account, :facebook_account_treatment, 
+		params.require(:digital_asset).permit(:facebook_account, :facebook_account_treatment,
 												:goolge_account, :google_account_treatment,
 												:google_account_content, :google_account_id,
 												:google_account_password, :heir, :heir_email)
